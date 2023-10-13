@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node .",
+    "dev": "tsc --watch",
+    "serve": "node .",
+    "build": "tsc",
+    "install": "npm install"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.19",
+    "@types/mongoose": "^5.11.97",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "wikipedia": "^2.1.1"
+  },
+  "main": "dist/app.js"
+}
