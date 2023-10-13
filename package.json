@@ -2,7 +2,7 @@
   "scripts": {
     "start": "node .",
     "dev": "tsc --watch",
-    "serve": "node .",
+    "start:dev": "nodemon .",
     "build": "tsc",
     "install": "npm install"
   },
